@@ -143,8 +143,7 @@ header {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 48px 32px 32px 32px;
-    width: 100%;
+    margin: 48px 32px 32px 32px;
 
 }
 
@@ -158,4 +157,68 @@ h1 {
     font-size: 1.05rem;
     margin: 24px 0;
     color: #87879d;
+}
+
+.download-btn {
+    width: 193px;
+    height: 56px;
+    border-radius: 29px;
+    background-color: #4d96a9;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.text-content .version {
+    color: #8fe3f9;
+}
+
+.what-is-it-btn {
+    width: 161px;
+    height: 56px;
+    border-radius: 29px;
+    background-color: #855fb1;
+    font-size: 1rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+main {
+    margin: 32px 32px 64px 32px;
+}
+
+.vertical-line {
+    position: relative;
+    margin: 0 auto;
+    width: 1px;
+    height: 80px;
+    background-color: #d1d1df;
+}
+
+.number {
+    position: relative;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 1px solid #d1d1df;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 1rem;
+    font-weight: 900;
+    color: #87879d;
+}
+
+.img-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    width: 100%;
+    margin: 64px 0;
+}
+
+.img-contents img {
+    border-radius: 10px;
 }
